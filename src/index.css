@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #0f172a;
+  background: #f8fafc;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(244, 185, 66, 0.18), transparent 24%),
+    linear-gradient(180deg, #fefefe 0%, #eef5ff 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.calendar-cell {
+  min-height: 6.5rem;
+}
+
+.field-input {
+  @apply w-full rounded-2xl border-2 border-brand-navy bg-white px-5 py-4 text-lg text-slate-900 shadow-sm outline-none transition focus:border-brand-blue focus:ring-4 focus:ring-brand-sky;
+}
