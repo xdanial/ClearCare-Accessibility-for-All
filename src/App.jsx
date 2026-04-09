@@ -173,7 +173,7 @@ function App() {
               <div className="space-y-8 text-center py-10">
                 <div className="bg-brand-navy text-white p-8 rounded-[2rem] text-center">
                   <h2 className="text-5xl font-bold mb-4">Welcome to ClearCare</h2>
-                  <p className="text-2xl text-slate-100">Simple healthcare appointment booking for older adults. Large text, clear labels, and one step at a time.</p>
+                  <p className="text-2xl text-slate-100">Simple medical appointment booking for the whole family.</p>
                 </div>
                 <button onClick={goNext} className="w-full bg-brand-gold border-4 border-brand-navy py-6 rounded-[2rem] text-4xl font-bold transition hover:bg-yellow-300">Start Booking Now</button>
               </div>
